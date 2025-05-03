@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/HariharanG26/vedic-app/static/css/main.76910189.css",
+    "main.js": "/HariharanG26/vedic-app/static/js/main.b55286d7.js",
+    "static/js/453.64302709.chunk.js": "/HariharanG26/vedic-app/static/js/453.64302709.chunk.js",
+    "index.html": "/HariharanG26/vedic-app/index.html",
+    "main.76910189.css.map": "/HariharanG26/vedic-app/static/css/main.76910189.css.map",
+    "main.b55286d7.js.map": "/HariharanG26/vedic-app/static/js/main.b55286d7.js.map",
+    "453.64302709.chunk.js.map": "/HariharanG26/vedic-app/static/js/453.64302709.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.76910189.css",
+    "static/js/main.b55286d7.js"
+  ]
+}
