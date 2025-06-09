@@ -112,7 +112,22 @@ const AuthModal = ({ show, handleClose, authType, setAuthType }) => {
             {authType === 'login' ? 'Login' : 'Register'}
           </button>
         </form>
-        
+
+        <div className="auth-buttons">
+          <button 
+            className="auth-btn"
+            onClick={() => authType === 'login' ? setAuthType('login') : handleSubmit()}
+          >
+            {authType === 'login' ? 'Login' : 'Register'}
+          </button>
+          <button
+            className="auth-btn"
+            onClick={() => authType === 'login' ? setAuthType('register') : setAuthType('login')}
+          >
+            {authType === 'login' ? 'Register' : 'Login'}
+          </button>
+        </div>
+
         <div className="auth-switch">
           {authType === 'login' ? (
             <p>
@@ -126,7 +141,7 @@ const AuthModal = ({ show, handleClose, authType, setAuthType }) => {
             </p>
           )}
         </div>
-        
+
         <div className="auth-social">
           <p>Or continue with:</p>
           <div className="social-buttons">
@@ -143,4 +158,4 @@ const AuthModal = ({ show, handleClose, authType, setAuthType }) => {
   );
 };
 
-export default AuthModal;   
+export default AuthModal;

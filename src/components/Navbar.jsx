@@ -15,6 +15,7 @@ const Navbar = () => {
   const handleAuthClick = (type) => {
     setAuthType(type);
     setShowAuthModal(true);
+    setIsMenuOpen(false); // Close menu after click
   };
 
   return (
@@ -23,11 +24,13 @@ const Navbar = () => {
         <Link to="/" className="navbar-logo">
           VedicPurohit
         </Link>
-        
-        <div className="menu-icon" onClick={toggleMenu}>
-          <i className={isMenuOpen ? 'fas fa-times' : 'fas fa-bars'} />
-        </div>
-        
+
+        {/* Mobile Menu Button */}
+        <button className="mobile-menu-button" onClick={toggleMenu}>
+          {isMenuOpen ? 'Menu' : 'Menu'}
+        </button>
+
+        {/* Navigation Menu */}
         <ul className={isMenuOpen ? 'nav-menu active' : 'nav-menu'}>
           <li className="nav-item">
             <Link to="/" className="nav-links" onClick={toggleMenu}>Home</Link>
@@ -50,15 +53,18 @@ const Navbar = () => {
           <li className="nav-item">
             <Link to="/contact" className="nav-links" onClick={toggleMenu}>Contact</Link>
           </li>
-          <li className="nav-item">
+
+          {/* Mobile Auth Buttons */}
+          <li className="nav-item mobile-auth">
             <button className="nav-btn" onClick={() => handleAuthClick('login')}>Login</button>
           </li>
-          <li className="nav-item">
+          <li className="nav-item mobile-auth">
             <button className="nav-btn primary" onClick={() => handleAuthClick('register')}>Register</button>
           </li>
         </ul>
       </div>
-      
+
+      {/* Auth Modal */}
       <AuthModal 
         show={showAuthModal} 
         handleClose={() => setShowAuthModal(false)} 
