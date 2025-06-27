@@ -9,7 +9,7 @@ import './styles/global.css';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/vedic-app">
       <ScrollToTop />
       <Navbar />
       <RoutesConfig /> {/* Using RoutesConfig here */}
