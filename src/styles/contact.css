@@ -1,0 +1,180 @@
+/* ─────────────────────────────────────────────
+   CONTACT PAGE – Updated Styles
+   ───────────────────────────────────────────── */
+
+/* 1. Universal box‑sizing */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* 2. Page + Section basics */
+.contact-page {
+  font-family: 'Segoe UI', sans-serif;
+  background: #fdfaf7;
+  color: #333;
+}
+
+.contact-section {
+  padding: 60px 20px;
+  background: #fff;
+}
+
+.contact-section .container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* 3. Two‑column grid (form + info) */
+.contact-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+  gap: 40px;
+  align-items: flex-start;           /* NEW: prevents vertical stretch */
+}
+
+/* Cards on left + right */
+.contact-form,
+.contact-info {
+  background: #fffaf5;               /* subtle beige */
+  padding: 30px;
+  border: 1px solid #f1ddd0;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Headings */
+.contact-form h3,
+.contact-info h3 {
+  font-size: 28px;
+  color: #8b0000;
+  margin: 0 0 20px;
+}
+
+/* 4. Form elements */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form-group { display: flex; flex-direction: column; }
+
+.form-row   { display: flex; gap: 20px; flex-wrap: wrap; }
+.form-row .form-group { flex: 1; }
+
+label {
+  margin-bottom: 6px;
+  font-weight: 500;
+  color: #555;
+}
+
+input,
+textarea {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 15px;
+  font-family: inherit;
+  transition: border 0.3s;
+}
+
+input:focus,
+textarea:focus { border-color: #a0522d; outline: none; }
+
+textarea { min-height: 120px; resize: vertical; }
+
+.submit-btn {
+  background: #a0522d;
+  color: #fff;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  align-self: flex-start;
+  transition: background 0.3s;
+}
+.submit-btn:hover { background: #8b4513; }
+
+/* 5. Compact info items */
+.info-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+}
+
+.info-icon {
+  font-size: 20px;
+  color: #a0522d;
+  min-width: 30px;
+  text-align: center;
+  padding-top: 2px;
+}
+
+.info-content h4 {
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0 0 4px;
+  color: #333;
+}
+
+.info-content p { margin: 0; font-size: 14px; color: #666; }
+
+/* 6. Social links */
+.social-links { margin-top: 10px; }
+.social-links h4 { margin: 0 0 10px; color: #444; }
+.social-icons a {
+  font-size: 18px;
+  margin-right: 15px;
+  color: #a0522d;
+  transition: color 0.3s;
+}
+.social-icons a:hover { color: #8b4513; }
+
+/* 7. Map section */
+.map-section {
+  padding: 60px 20px;
+  background: #f7f3ef;
+}
+
+.map-section h3 {
+  text-align: center;
+  font-size: 26px;
+  color: #8b0000;
+  margin-bottom: 20px;
+}
+
+.map-container iframe {
+  width: 100%;
+  height: 350px;
+  border: none;
+  border-radius: 12px;
+}
+
+/* 8. Thank‑you message */
+.thank-you-message {
+  padding: 60px 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+.thank-you-message h3 {
+  font-size: 30px;
+  color: #8b0000;
+  margin-bottom: 15px;
+}
+.thank-you-message p {
+  font-size: 16px;
+  color: #444;
+  margin-bottom: 10px;
+}
+
+/* 9. Mobile tweaks */
+@media (max-width: 480px) {
+  .submit-btn { align-self: stretch; text-align: center; }
+}
