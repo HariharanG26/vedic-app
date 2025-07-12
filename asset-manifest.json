@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/vedic-app/static/css/main.76910189.css",
-    "main.js": "/vedic-app/static/js/main.067afbd5.js",
-    "static/js/453.64302709.chunk.js": "/vedic-app/static/js/453.64302709.chunk.js",
-    "index.html": "/vedic-app/index.html",
-    "main.76910189.css.map": "/vedic-app/static/css/main.76910189.css.map",
-    "main.067afbd5.js.map": "/vedic-app/static/js/main.067afbd5.js.map",
-    "453.64302709.chunk.js.map": "/vedic-app/static/js/453.64302709.chunk.js.map"
+    "main.css": "/VaidikaKarma/static/css/main.c2b0e44c.css",
+    "main.js": "/VaidikaKarma/static/js/main.a254ae8e.js",
+    "static/js/453.8879f0b6.chunk.js": "/VaidikaKarma/static/js/453.8879f0b6.chunk.js",
+    "static/media/logo.png": "/VaidikaKarma/static/media/logo.abb0546498481176dbfc.png",
+    "index.html": "/VaidikaKarma/index.html",
+    "main.c2b0e44c.css.map": "/VaidikaKarma/static/css/main.c2b0e44c.css.map",
+    "main.a254ae8e.js.map": "/VaidikaKarma/static/js/main.a254ae8e.js.map",
+    "453.8879f0b6.chunk.js.map": "/VaidikaKarma/static/js/453.8879f0b6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.76910189.css",
-    "static/js/main.067afbd5.js"
+    "static/css/main.c2b0e44c.css",
+    "static/js/main.a254ae8e.js"
   ]
 }
