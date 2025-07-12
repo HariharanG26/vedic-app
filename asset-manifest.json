@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/VaidikaKarma/static/css/main.c2b0e44c.css",
-    "main.js": "/VaidikaKarma/static/js/main.a254ae8e.js",
-    "static/js/453.8879f0b6.chunk.js": "/VaidikaKarma/static/js/453.8879f0b6.chunk.js",
-    "static/media/logo.png": "/VaidikaKarma/static/media/logo.abb0546498481176dbfc.png",
-    "index.html": "/VaidikaKarma/index.html",
-    "main.c2b0e44c.css.map": "/VaidikaKarma/static/css/main.c2b0e44c.css.map",
-    "main.a254ae8e.js.map": "/VaidikaKarma/static/js/main.a254ae8e.js.map",
-    "453.8879f0b6.chunk.js.map": "/VaidikaKarma/static/js/453.8879f0b6.chunk.js.map"
+    "main.css": "/VaidikaKarma-V2/static/css/main.c2b0e44c.css",
+    "main.js": "/VaidikaKarma-V2/static/js/main.c515214f.js",
+    "static/js/453.8879f0b6.chunk.js": "/VaidikaKarma-V2/static/js/453.8879f0b6.chunk.js",
+    "static/media/logo.png": "/VaidikaKarma-V2/static/media/logo.abb0546498481176dbfc.png",
+    "index.html": "/VaidikaKarma-V2/index.html",
+    "main.c2b0e44c.css.map": "/VaidikaKarma-V2/static/css/main.c2b0e44c.css.map",
+    "main.c515214f.js.map": "/VaidikaKarma-V2/static/js/main.c515214f.js.map",
+    "453.8879f0b6.chunk.js.map": "/VaidikaKarma-V2/static/js/453.8879f0b6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c2b0e44c.css",
-    "static/js/main.a254ae8e.js"
+    "static/js/main.c515214f.js"
   ]
 }
