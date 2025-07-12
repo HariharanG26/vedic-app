@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/VaidikaKarma-V2/static/css/main.c2b0e44c.css",
-    "main.js": "/VaidikaKarma-V2/static/js/main.c515214f.js",
+    "main.css": "/VaidikaKarma-V2/static/css/main.34690ce3.css",
+    "main.js": "/VaidikaKarma-V2/static/js/main.daace318.js",
     "static/js/453.8879f0b6.chunk.js": "/VaidikaKarma-V2/static/js/453.8879f0b6.chunk.js",
     "static/media/logo.png": "/VaidikaKarma-V2/static/media/logo.abb0546498481176dbfc.png",
     "index.html": "/VaidikaKarma-V2/index.html",
-    "main.c2b0e44c.css.map": "/VaidikaKarma-V2/static/css/main.c2b0e44c.css.map",
-    "main.c515214f.js.map": "/VaidikaKarma-V2/static/js/main.c515214f.js.map",
+    "main.34690ce3.css.map": "/VaidikaKarma-V2/static/css/main.34690ce3.css.map",
+    "main.daace318.js.map": "/VaidikaKarma-V2/static/js/main.daace318.js.map",
     "453.8879f0b6.chunk.js.map": "/VaidikaKarma-V2/static/js/453.8879f0b6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c2b0e44c.css",
-    "static/js/main.c515214f.js"
+    "static/css/main.34690ce3.css",
+    "static/js/main.daace318.js"
   ]
 }
